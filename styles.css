@@ -13,10 +13,17 @@ input {
 button {
   background-color: #5f9341;
   color: white;
-  border: none;
+  border: 1px solid #5f9341;
   padding: 0.5em 0.7em;
   margin-top: 0.5em;
   font-weight: 600;
+}
+#delete-btn {
+  background-color: white;
+  color: #5f9341;
+}
+button:hover {
+  opacity: 0.8;
 }
 ul {
   padding-left: 0;
